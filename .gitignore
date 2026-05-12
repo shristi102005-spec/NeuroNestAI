@@ -1,21 +1,47 @@
-# Virtual Environment
+# ======================
+# Virtual Environments
+# ======================
+venv/
+env/
+newenv/
 .venv/
 
-# Environment Variables
-.env
-
-# Python Cache
+# ======================
+# Python cache files
+# ======================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Chroma Database
-chroma_db/
+# ======================
+# Environment variables
+# ======================
+.env
 
-# Uploaded PDFs
-uploads/
-
-# IDE files
+# ======================
+# IDE files (PyCharm / VS Code)
+# ======================
 .idea/
+.vscode/
 
+# ======================
+# Streamlit cache
+# ======================
+.streamlit/
+
+# ======================
 # OS files
+# ======================
 .DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Jupyter Notebook checkpoints
+# ======================
+.ipynb_checkpoints/
