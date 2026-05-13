@@ -1,47 +1,5 @@
-# ======================
-# Virtual Environments
-# ======================
 venv/
-env/
 newenv/
-.venv/
-
-# ======================
-# Python cache files
-# ======================
+.env
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# ======================
-# Environment variables
-# ======================
-.env
-
-# ======================
-# IDE files (PyCharm / VS Code)
-# ======================
-.idea/
-.vscode/
-
-# ======================
-# Streamlit cache
-# ======================
-.streamlit/
-
-# ======================
-# OS files
-# ======================
-.DS_Store
-Thumbs.db
-
-# ======================
-# Logs
-# ======================
-*.log
-
-# ======================
-# Jupyter Notebook checkpoints
-# ======================
-.ipynb_checkpoints/
